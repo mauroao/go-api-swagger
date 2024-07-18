@@ -1,4 +1,4 @@
-module goapi
+module github.com/mauroao/go-api-swagger
 
 go 1.22.5
 

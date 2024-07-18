@@ -1,0 +1,27 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample server.",
+        "title": "Swagger Example API",
+        "contact": {}
+    },
+    "paths": {
+        "/api/hello": {
+            "get": {
+                "description": "Hello example",
+                "produces": [
+                    "text/plain"
+                ],
+                "summary": "Hello",
+                "responses": {
+                    "200": {
+                        "description": "hello",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
